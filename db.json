@@ -1,0 +1,124 @@
+{
+    "User": {
+        "id": 1,
+        "name": "Julio",
+        "last_name": "Da Cunha",
+        "age": 30,
+        "email": "juliodacu@gmail.com",
+        "password": "ew1247sdgv83dasd93jnwwer34",
+        "privilaged": false,
+        "created_at": "10/10/2020",
+        "updated_at": "10/10/2020"
+    },
+
+    "Category":{
+        "id": 1,
+        "name": "Container",
+        "description": "Conteinerizando coisas",
+        "creator": {
+            "id": 1,
+            "name": "Julio",
+            "last_name": "Da Cunha",
+            "age": 30,
+            "email": "juliodacu@gmail.com",
+            "password": "ew1247sdgv83dasd93jnwwer34",
+            "privilaged": false,
+            "created_at": "10/10/2020",
+            "updated_at": "10/10/2020"
+        },
+        "created_at": "10/10/2020",
+        "updated_at": "10/10/2020"
+    },
+
+    "Post": {
+        "id": 1,
+        "title": "Docker + Node.js",
+        "body": "<html>...</html>",
+        "category": [{
+            "id": 1,
+            "name": "Container",
+            "description": "Conteinerizando coisas",
+            "creator": {
+                "id": 1,
+                "name": "Julio",
+                "last_name": "Da Cunha",
+                "age": 30,
+                "email": "juliodacu@gmail.com",
+                "password": "ew1247sdgv83dasd93jnwwer34",
+                "privilaged": false,
+                "created_at": "10/10/2020",
+                "updated_at": "10/10/2020"
+            },
+            "created_at": "10/10/2020",
+            "updated_at": "10/10/2020"
+        }], 
+        "creator": {
+            "id": 1,
+            "name": "Julio",
+            "last_name": "Da Cunha",
+            "age": 30,
+            "email": "juliodacu@gmail.com",
+            "password": "ew1247sdgv83dasd93jnwwer34",
+            "privilaged": false,
+            "created_at": "10/10/2020",
+            "updated_at": "10/10/2020"
+        },
+        "up": 0,
+        "created_at": "10/10/2020",
+        "updated_at": "10/10/2020"
+    },
+
+    "Commentary":{
+        "commentary": "Muito bom esse post vou até dar like!",
+        "creator": {
+            "id": 1,
+            "name": "Julio",
+            "last_name": "Da Cunha",
+            "age": 30,
+            "email": "juliodacu@gmail.com",
+            "password": "ew1247sdgv83dasd93jnwwer34",
+            "privilaged": false,
+            "created_at": "10/10/2020",
+            "updated_at": "10/10/2020"
+        },
+        "post": {
+            "id": 1,
+            "title": "Docker + Node.js",
+            "body": "<html>...</html>",
+            "category": [{
+                "id": 1,
+                "name": "Container",
+                "description": "Conteinerizando coisas",
+                "creator": {
+                    "id": 1,
+                    "name": "Julio",
+                    "last_name": "Da Cunha",
+                    "age": 30,
+                    "email": "juliodacu@gmail.com",
+                    "password": "ew1247sdgv83dasd93jnwwer34",
+                    "privilaged": false,
+                    "created_at": "10/10/2020",
+                    "updated_at": "10/10/2020"
+                },
+                "created_at": "10/10/2020",
+                "updated_at": "10/10/2020"
+            }], 
+            "creator": {
+                "id": 1,
+                "name": "Julio",
+                "last_name": "Da Cunha",
+                "age": 30,
+                "email": "juliodacu@gmail.com",
+                "password": "ew1247sdgv83dasd93jnwwer34",
+                "privilaged": false,
+                "created_at": "10/10/2020",
+                "updated_at": "10/10/2020"
+            },
+            "up": 0,
+            "created_at": "10/10/2020",
+            "updated_at": "10/10/2020"
+        },
+        "created_at": "10/10/2020",
+        "updated_at": "10/10/2020"
+    }
+}
